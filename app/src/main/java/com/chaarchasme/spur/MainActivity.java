@@ -21,6 +21,7 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONArrayRequestListener;
+import com.chaarchasme.spur.model.Painting;
 import com.github.florent37.materialleanback.MaterialLeanBack;
 import com.squareup.picasso.Picasso;
 

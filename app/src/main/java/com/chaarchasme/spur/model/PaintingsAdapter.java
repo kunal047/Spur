@@ -41,9 +41,9 @@ public class PaintingsAdapter extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
 
-        mView = inflater.inflate(R.layout.cell_test, null);
-        TextView textViewImageName = mView.findViewById(R.id.textView);
-        ImageView imageViewQuote = mView.findViewById(R.id.imageView);
+        mView = inflater.inflate(R.layout.activity_foldable_list, null);
+        TextView textViewImageName = mView.findViewById(R.id.list_item_title);
+        ImageView imageViewQuote = mView.findViewById(R.id.list_item_image);
         textViewImageName.setText("Test " + i);
         Glide.with(context)
                 .load(paintingsList.get(i))
